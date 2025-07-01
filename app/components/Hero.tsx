@@ -79,7 +79,7 @@ export default function Hero() {
         </div>
           <div className="flex flex-col md:flex-row justify-center gap-6 mt-15 mb-15">
           <Link
-            href="#whitepaper"
+            href="/whitepaper.pdf"
             className="bg-gradient-to-b from-[#C8F4FF] to-[#70D0FF] text-[#013243] px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 transition"
           >
             Read Whitepaper
