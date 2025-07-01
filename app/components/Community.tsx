@@ -50,7 +50,7 @@ export default function ScrollProfilesSection() {
             <span className="text-white text-3xl font-bold">Creatives</span>
           </h2>
           <a
-            href="https://t.me/yourchannel"
+            href="https://t.me/dyfusionchain"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-medium rounded-full shadow-md hover:bg-blue-600 transition"
