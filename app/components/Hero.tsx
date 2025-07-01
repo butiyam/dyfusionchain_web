@@ -3,8 +3,6 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const videos = ['/vid1.mp4', '/vid2.mp4', '/vid3.mp4'];
-
 export default function Hero() {
 
 
@@ -47,7 +45,7 @@ export default function Hero() {
         {/* Center Video Frame */}
         <div className="relative w-full max-w-3xl mx-auto border-[6px] border-cyan-300 rounded-xl p-1 bg-[#00081a] shadow-[0_0_25px_5px_rgba(0,255,255,0.3)]">
           <video
-            src="/vid1.mp4"
+            src="/vid.mp4"
             autoPlay
             muted
             loop
