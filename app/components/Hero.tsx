@@ -6,27 +6,7 @@ import Image from 'next/image';
 const videos = ['/vid1.mp4', '/vid2.mp4', '/vid3.mp4'];
 
 export default function Hero() {
-  const [currentVideo, setCurrentVideo] = useState(0);
-  const videoRef = useRef<HTMLVideoElement>(null);
 
-  const tweetImages = ['/mock/tweet1.png', '/mock/tweet2.png', '/mock/tweet3.png'];
-  const [currentTweet, setCurrentTweet] = useState(0);
-
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentVideo((prev) => (prev + 1) % videos.length);
-      setCurrentTweet((prev) => (prev + 1) % tweetImages.length);
-    }, 10000);
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.load();
-      videoRef.current.play().catch(() => {});
-    }
-  }, [currentVideo]);
 
   return (
     <section>
@@ -67,9 +47,7 @@ export default function Hero() {
         {/* Center Video Frame */}
         <div className="relative w-full max-w-3xl mx-auto border-[6px] border-cyan-300 rounded-xl p-1 bg-[#00081a] shadow-[0_0_25px_5px_rgba(0,255,255,0.3)]">
           <video
-            key={currentVideo}
-            ref={videoRef}
-            src={videos[currentVideo]}
+            src="/vid1.mp4"
             autoPlay
             muted
             loop

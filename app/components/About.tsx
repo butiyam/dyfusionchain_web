@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const videos = ['/vid1.mp4', '/vid2.mp4', '/vid3.mp4'];
 
@@ -82,7 +83,10 @@ export default function About() {
         </div>
 
         <button className="mt-10 px-6 py-2 bg-gradient-to-b from-[#c7f0ff] to-[#5a9adf] rounded-full shadow text-[#001933] font-semibold">
-          Read Whitepaper
+          <Link
+            href="/whitepaper.pdf"
+          >  Read Whitepaper
+          </Link>
         </button>
 
         <p className="mt-6 text-sm text-white/70">
