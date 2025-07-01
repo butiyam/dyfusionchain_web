@@ -88,11 +88,11 @@ export default function Hero() {
 
         {/* Floating Side Icons */}
         <div className="absolute left-4 md:left-30 top-[5%] hidden md:block animate-float border-cyan-300 rounded-xl">
-          <Image src="/left-graphic.gif" alt="Icon Left" width={120} height={120}         
+          <Image src="/left-icon.gif" alt="Icon Left" width={120} height={120}         
           className="left-0 w-60 h-60 md:w-72 md:h-72 rounded-full border-4 border-[#00ffff] bg-[#001933] shadow-[0_0_30px_#00ffff] z-10" />
         </div>
         <div className="absolute right-4 md:right-30 top-[10%] hidden md:block animate-float">
-          <Image src="/right-graphic.gif" alt="Icon Right" width={120} height={120}
+          <Image src="/right-icon.gif" alt="Icon Right" width={120} height={120}
           className="right-0 w-60 h-60 md:w-72 md:h-72 rounded-full border-4 border-[#00ffff] bg-[#001933] shadow-[0_0_30px_#00ffff] z-10"
           />
         </div>
