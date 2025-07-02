@@ -47,7 +47,11 @@ export default function TweetToEarn() {
               <br /> Join the Beta Army, Pre-TGE and start earning now.
             </p>
             <button className="px-6 py-2 bg-gradient-to-b from-[#c7f0ff] to-[#5a9adf] rounded-full shadow text-[#001933] font-semibold">
-              Launch App
+                <Link
+               href="https://www.dyfusion.app"
+                   >
+                  Launch App
+                </Link>
             </button>
           </div>
 
