@@ -17,7 +17,7 @@ export default function Hero() {
         {/* Launch App Button absolute inset-0  */}
         <div className="absolute top-6 right-6">
           <Link
-            href="#"
+            href="https://www.dyfusion.app"
             className="bg-gradient-to-b from-[#C8F4FF] to-[#70D0FF] text-[#013243] px-5 py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition"
           >
             Launch App
@@ -35,7 +35,7 @@ export default function Hero() {
         {/* Action Buttons */}
         <div className="flex flex-col md:flex-row justify-center gap-6 mb-12">
           <Link
-            href="#mining"
+            href="https://www.dyfusion.app/"
             className="bg-gradient-to-b from-[#C8F4FF] to-[#70D0FF] text-[#013243] px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 transition"
           >
             Start Mining
